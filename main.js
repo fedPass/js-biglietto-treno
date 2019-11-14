@@ -10,7 +10,7 @@ var anni = parseInt(prompt('Quanti anni hai?'));
 // controllo che siano numeri
 if (isNaN(anni && km)) {
     console.log('Ooops...non hai digitato un numero!');
-    document.getElementById(error).setAttribute('class', 'visible');
+    document.getElementById('error').setAttribute('class', 'visible');
 } else {
     console.log('devi percorrere ' + km + ' km');
     console.log('la tua età è ' + anni + ' anni');
